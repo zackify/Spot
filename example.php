@@ -15,7 +15,7 @@ echo Create_User('user','pass'); // change this to the username / pass you want 
 <script src="Spot/jquery.js" type="text/javascript"></script>
 <script src="Spot/editing.js" type="text/javascript"></script>
 <!-- End copying -->
-</head>
+</head> 
 
 <body>
 
