@@ -3,7 +3,7 @@
 - Open a document that you want to use
 - Add
 <?php require('Spot/start.php'); 
-echo Create_User('user','pass'); // change this to the username / pass you want and refresh the page then remove this
+echo Create_User('user','pass'); // change this to the username / pass you want
 ?>
 to the top of your PHP document
 
