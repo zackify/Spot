@@ -1,4 +1,4 @@
-1. Edit Spot/connect.php with mysql details
+1. Edit Spot/connect.php with mysql details and import spot.sql
 2. Follow the example.php page or do the following:
 - Open a document that you want to use
 - Add
