@@ -6,7 +6,7 @@ $result = mysql_query("SELECT text,title FROM content WHERE title='$title'") or 
 if(mysql_num_rows($result) != 0){
 $row = mysql_fetch_array($result);
 if(isset($_SESSION['user']) && !isset($_SESSION['mobile'])){
-$text = "<div class=\"edit\" title=\"".$row['title']."\" contenteditable>".$row['text'] ."</div>";
+$text = "<div class=\"edit\" title=\"".$row['title']."\" contenteditable>". stripslashes($row['text']) ."</div>";
 return $text;
 }
 else{
